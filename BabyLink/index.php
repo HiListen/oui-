@@ -13,9 +13,12 @@ if(!isset($_SESSION["username"])){
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<div class="image">
+    <img src="images/baby.png">
+</div>
 <div class="sucess">
     <h1>Bienvenue <?php echo $_SESSION['username']; ?>!</h1>
-    <p> Reserve ici ton accés au Babyfoot ! </p>
+    <p> Reserve ici ton accès au Babyfoot ! </p>
     <a href="logout.php">Déconnexion</a>
 </div>
 
@@ -34,7 +37,7 @@ if(!isset($_SESSION["username"])){
         </thead>
         <tbody>
         <tr>
-            <th scope="row"> <a href=""> 8h </a> </th>
+            <th scope="row"> <a href="mon8h.php"> 8h </a> </th>
             <th scope="row"> <a href=""> 8h </a> </th>
             <th scope="row"> <a href=""> 8h </a> </th>
             <th scope="row"> <a href=""> 8h </a> </th>
