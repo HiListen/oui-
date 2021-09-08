@@ -1,5 +1,5 @@
 body {
-    background: #1c242d;
+    background: lightblue;
 }
 .box {
     border: 1px solid #c4c4c4;
@@ -83,7 +83,7 @@ p.errorMessage {
     margin-bottom: 2%;
 }
 .calendar {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .calendar caption {
     margin-bottom:5%;
@@ -115,3 +115,35 @@ p.errorMessage {
     padding: 20px;
 }
 
+.calendar a {
+
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 5%;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.sucess a {
+
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 5%;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}

@@ -30,8 +30,8 @@ if (isset($_REQUEST['username'], $_REQUEST['email'], $_REQUEST['password'])){
 }else{
     ?>
     <form class="box" action="" method="post">
-        <h1 class="box-logo box-title"><a> BabyLink</a></h1>
-        <h1 class="box-title">S'inscrire</h1>
+        <h1 class="box-logo box-title"> <img src="images/baby.png" </h1>
+        <h1 class="box-title" style="color: midnightblue; font-weight: bold; font-family: Optima, sans-serif;">S'inscrire</h1>
         <input type="text" class="box-input" name="username" placeholder="Nom d'utilisateur" required />
         <input type="text" class="box-input" name="email" placeholder="Email" required />
         <input type="password" class="box-input" name="password" placeholder="Mot de passe" required />
